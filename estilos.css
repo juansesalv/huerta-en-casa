@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.margenesh{
+    background-color: green;
+    padding-left: 30px;
+}
+.npaginas{
+    font-size: small;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+.segundoheader{
+    height: 100px;
+    background-color: aquamarine;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.seguinos-redes-sociales{
+    padding-right: 300px;
+    text-align: right;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: green;
+}
+.barra-de-opciones{
+    text-align: right;
+    padding-right: 30px;
+}
+.opciones{
+    display: inline;
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+.sobre-nosotros{
+    padding-top: 60px;
+}
