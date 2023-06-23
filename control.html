@@ -12,33 +12,82 @@
 <body>
     <div>
         <header>
-            <!-- uso de box para acomodar el encabezado -->
-            <div class="row">
+            <div class="container-fluid">
+              <!-- uso de box para acomodar el encabezado -->
+              <div class="row">
                 <div class="col-12 d-flex flex-row margenesh">
-                    <div class="col-12 col-md-6">
-                        <h4 class="npaginas">Control natural</h4>
-                    </div>
-                    <div class="col-12 col-md-6 seguinos-redes-sociales">
-                        <h4 class="npaginas">Seguinos:</h4>
-                    </div>
+                  <div class="col-12 col-md-6">
+                    <h4 class="npaginas">Control Natural</h4>
+                  </div>
+                  <div class="col-12 col-md-6 d-flex flex-row justify-content-end seguinos-redes-sociales">
+                    <h4 class="npaginas">Seguinos:</h4>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="titulo">Huerta en casa</h1>
-                    <ul class="barra-de-opciones">
-                        <li class="opciones"><a href="index.html">Inicio</a></li>
-                        <li class="opciones"><a href="semillas.html">Semillas</a></li>
-                        <li class="opciones"><a href="fertilizantes.html">Fertilizantes</a></li>
-                        <li class="opciones"><a href="control.html">Control natural</a></li>
-                        <li class="opciones"><a href="contacto.html">Contacto</a></li>
-                        <hr class="linea-divisoria">
-                    </ul>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Huerta en casa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-md-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="semillas.html">Semillas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="fertilizantes.html">Fertilizantes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="control.html">Control natural</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </header>
+              </div>
+            </nav>
+          </header>
         <main>
-
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-5">
+                        <p>‘El control natural de plagas’ es un método para controlar las plagas que no usa sustancias químicas. En cambio, se utilizan otros insectos, aves, animales, plantas o técnicas manuales.</p>
+                        <p>Los pesticidas químicos poseen muchas desventajas. A pesar de que eliminan las plagas, también matan a muchos de los insectos que son útiles para el cultivo, pueden contaminar el suelo y los suministros hidráulicos, y hacer que las personas se enfermen. Los beneficios de los pesticidas químicos disminuyen al pasar el tiempo pues las plagas se vuelven resistentes a ellos. Esto significa que el pesticida mata a las plagas más débiles dejando que las más fuertes críen una nueva generación que es inmune al pesticida.</p>
+                    </div>
+                <div class="row">
+                    <div class="col-12 d-flex p-5 justify-content-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wAVfD1agkcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Los controladores de plagas mas conocidos son</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 p-5 text-center">
+                        <h3>Chinche asesina</h3>
+                        <img class="img-fluid" src="./imagenes/control.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-4 p-5 text-center">
+                        <h3>Hongo entomopatógenos</h3>
+                        <img class="img-fluid" src="./imagenes/controlplaga.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-4 p-5 text-center">
+                        <h3>Mariquita</h3>
+                        <img class="img-fluid" src="./imagenes/mariquita-depredadora.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
         </main>
         <footer>
             <div class="row">

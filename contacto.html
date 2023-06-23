@@ -12,31 +12,49 @@
 <body>
     <div>
         <header>
-            <!-- uso de box para acomodar el encabezado -->
-            <div class="row">
+            <div class="container-fluid">
+              <!-- uso de box para acomodar el encabezado -->
+              <div class="row">
                 <div class="col-12 d-flex flex-row margenesh">
-                    <div class="col-12 col-md-6">
-                        <h4 class="npaginas">Contacto</h4>
-                    </div>
-                    <div class="col-12 col-md-6 seguinos-redes-sociales">
-                        <h4 class="npaginas">Seguinos:</h4>
-                    </div>
+                  <div class="col-12 col-md-6">
+                    <h4 class="npaginas">Contacto</h4>
+                  </div>
+                  <div class="col-12 col-md-6 d-flex flex-row justify-content-end seguinos-redes-sociales">
+                    <h4 class="npaginas">Seguinos:</h4>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="titulo">Huerta en casa</h1>
-                    <ul class="barra-de-opciones">
-                        <li class="opciones"><a href="index.html">Inicio</a></li>
-                        <li class="opciones"><a href="semillas.html">Semillas</a></li>
-                        <li class="opciones"><a href="fertilizantes.html">Fertilizantes</a></li>
-                        <li class="opciones"><a href="control.html">Control natural</a></li>
-                        <li class="opciones"><a href="contacto.html">Contacto</a></li>
-                        <hr class="linea-divisoria">
-                    </ul>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Huerta en casa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-md-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="semillas.html">Semillas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="fertilizantes.html">Fertilizantes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="control.html">Control natural</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </header>
+              </div>
+            </nav>
+          </header>
         <main>
 
         </main>
