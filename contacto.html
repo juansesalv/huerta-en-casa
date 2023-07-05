@@ -10,7 +10,7 @@
     <title>contacto</title>
 </head>
 <body>
-    <div>
+    <div class="contenedor">
         <header>
             <div class="container-fluid">
               <!-- uso de box para acomodar el encabezado -->
@@ -18,9 +18,6 @@
                 <div class="col-12 d-flex flex-row margenesh">
                   <div class="col-12 col-md-6">
                     <h4 class="npaginas">Contacto</h4>
-                  </div>
-                  <div class="col-12 col-md-6 d-flex flex-row justify-content-end seguinos-redes-sociales">
-                    <h4 class="npaginas">Seguinos:</h4>
                   </div>
                 </div>
               </div>
@@ -56,9 +53,91 @@
             </nav>
           </header>
         <main>
-
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-center">Contacto</h3>
+                <p class="p-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illum ut beatae quia nam animi quis doloribus nesciunt, doloremque, nobis accusamus ducimus quasi fugit facilis perferendis corporis at officia cum ullam. Quasi debitis aliquam cupiditate eligendi facere, maxime ratione aliquid error adipisci vero, aperiam voluptatem qui. Quo omnis itaque voluptatem. Beatae natus maxime sit fuga facilis eius molestias perferendis at illum ipsum incidunt recusandae enim ut, eum adipisci, impedit doloremque, quas vero. Eligendi, fugiat id quibusdam odio quasi atque necessitatibus dolore molestiae veniam possimus officia velit dicta ea ratione sunt in. Ratione officia ipsam dolorem iste quisquam, laboriosam aliquam ex!</p>
+              </div>
+            </div>
+            <div class="row d-flex flex-row">
+              <form class="col-12 col-md-6">
+                <strong class="p-5 text-center d-flex bg-secondary">Para cualquier consulta o informacion que desea brindar para la comunidad, le dejamos el siguiente formulario</strong>
+                <div class= "col-12  mb-3 justify-content-center ps-5">                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="imagenes/vuelta a fertilizantes.jpg" class="d-block img-fluid" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                  <label for="exampleFormControlInput1" class="form-label pt-3">Correo Electronico</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class= "col-12   mb-3 justify-content-center ps-5">
+                  <label for="exampleFormControlTextarea1"
+                  class="form-label">Consulta</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12 d-flex flex-row  justify-content-center ps-5">
+                  <input type="submit">
+                </div>
+              </form>
+              <div class="col-12 col-md-6 d-flex">
+                <img src="imagenes/watermelons-ga9a51b6ab_640.jpg" alt="">
+              </div>
+            </div>
+            <!-- carrousel -->
+            <div class="row">
+              <div class="col-12 p-5 d-flex justify-content-center">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <a href="/semillas.html">
+                        <img src="imagenes/vuelta a semillas.jpg" class="d-block img-fluid" alt="...">
+                      </a>
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <a href="fertilizantes.html">
+                        <img src="imagenes/vuelta a fertilizantes.jpg" class="d-block img-fluid" alt="...">
+                      </a>
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="control.html">
+                        <img src="imagenes/vuelta a control natural.jpg" class="d-block img-fluid" alt="...">
+                      </a>
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 >Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </main>
-        <footer>
+        <footer class="container-fluid">
             <div class="row">
                 <div class="margenesh">
                     <h4 class="npaginas">Copyright</h4>
